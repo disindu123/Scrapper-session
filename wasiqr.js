@@ -59,23 +59,18 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃QUEEN_ANITA_V2 SESSION IS 
-┃SUCCESSFULLY
-┃CONNECTED ✅🔥
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DAVID CYRIL 𖥘
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/deecee_x 👈
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 David Cyril*
-_____________________________________
-	
-_Don't Forget To Give Star To My Repo_`
+❭❭━━━━━━━━━━━━━━━━━━━━━━━━❏
+•┃𝑺𝒄𝒓𝒂𝒑𝒑𝒆𝒓 𝑩𝒐𝒕 𝑰𝒔 𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍𝒍𝒚 𝑪𝒐𝒏𝒏𝒆𝒄𝒕𝒆𝒅 ✅
+❭❭━━━━━━━━━━━━━━━━━━━━━━━━❏
+╭─────────────────────━┈⊷
+• ❶ || ᴄʀᴇᴀᴛᴏʀ : 𝑫𝒂𝒓𝒌 𝑨𝒅𝒂𝒎
+━━━━━━━━━━━━━━━━──⊷
+• ❷ || ᴡᴀ ᴄʜᴀɴɴᴇʟ : https://whatsapp.com/channel/0029Vay8vJsIiRovfLkFhF3k
+╰─────────────────────━┈⊷
+```𝘿𝙤𝙣𝙩 𝙁𝙧𝙤𝙜𝙚𝙩 𝙩𝙤 𝙁𝙤𝙡𝙡𝙤𝙬 𝙢𝙮 𝙬𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙘𝙝𝙖𝙣𝙣𝙚𝙡```🤗
+_______________________________
+* *𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚂𝙲𝚁𝙰𝙿𝙴𝚁 𝙱𝙾𝚃𝚉*🔥
+_______________________________`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
 
